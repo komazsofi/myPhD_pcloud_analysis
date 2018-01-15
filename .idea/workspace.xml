@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="935cbebd-0566-476b-9bac-ace0e217d6b2" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/Calc_Fea.ipynb" afterPath="$PROJECT_DIR$/Test/Calc_Fea.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lastools.bat" afterPath="$PROJECT_DIR$/lastools.bat" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,7 +18,7 @@
         <entry file="file://$PROJECT_DIR$/Test/Calc_Fea.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="1" />
+              <selected id="3" />
             </state>
           </provider>
         </entry>
@@ -42,10 +43,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2000" />
-    <option name="y" value="128" />
+    <option name="x" value="1985" />
+    <option name="y" value="70" />
     <option name="width" value="1893" />
-    <option name="height" value="1715" />
+    <option name="height" value="1260" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -107,7 +108,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2000" y="128" width="1893" height="1715" extended-state="0" />
+    <frame x="1985" y="70" width="1893" height="1260" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10796366" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -148,7 +149,7 @@
     <entry file="file://$PROJECT_DIR$/Test/Calc_Fea.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="1" />
+          <selected id="3" />
         </state>
       </provider>
     </entry>
