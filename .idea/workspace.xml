@@ -14,11 +14,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Calc_Fea.ipynb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Calc_Fea.ipynb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Test/Calc_Fea.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="6" />
+              <selected id="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KDtree.ipynb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Test/KDtree.ipynb">
+          <provider selected="true" editor-type-id="ipnb-editor">
+            <state>
+              <selected id="2" />
             </state>
           </provider>
         </entry>
@@ -39,6 +48,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Test/Calc_Fea.ipynb" />
+        <option value="$PROJECT_DIR$/Test/KDtree.ipynb" />
       </list>
     </option>
   </component>
@@ -69,6 +79,11 @@
             <path>
               <item name="geobia_wetland" type="b2602c69:ProjectViewProjectNode" />
               <item name="geobia_wetland" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="geobia_wetland" type="b2602c69:ProjectViewProjectNode" />
+              <item name="geobia_wetland" type="462c0819:PsiDirectoryNode" />
+              <item name="Test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -156,7 +171,21 @@
     <entry file="file://$PROJECT_DIR$/Test/Calc_Fea.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="6" />
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/Calc_Fea.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Test/KDtree.ipynb">
+      <provider selected="true" editor-type-id="ipnb-editor">
+        <state>
+          <selected id="2" />
         </state>
       </provider>
     </entry>
