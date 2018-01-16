@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="935cbebd-0566-476b-9bac-ace0e217d6b2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/Calc_Fea.ipynb" afterPath="$PROJECT_DIR$/Test/Calc_Fea.ipynb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Test/KDtree.ipynb" afterPath="$PROJECT_DIR$/Test/KDtree.ipynb" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -27,7 +26,7 @@
         <entry file="file://$PROJECT_DIR$/Test/KDtree.ipynb">
           <provider selected="true" editor-type-id="ipnb-editor">
             <state>
-              <selected id="2" />
+              <selected id="4" />
             </state>
           </provider>
         </entry>
@@ -185,7 +184,7 @@
     <entry file="file://$PROJECT_DIR$/Test/KDtree.ipynb">
       <provider selected="true" editor-type-id="ipnb-editor">
         <state>
-          <selected id="2" />
+          <selected id="4" />
         </state>
       </provider>
     </entry>
