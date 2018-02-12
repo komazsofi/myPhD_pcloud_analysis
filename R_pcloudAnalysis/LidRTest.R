@@ -8,12 +8,12 @@ filename2="D://NAEM//Data//ALS_AHN2//SelStudyArea2_sel1_ground_height_sub1.las"
 filename3="D://NAEM//Data//ALS_AHN2//SelStudyArea2_sel1_ground_height_sub2.las"
 filename4="D://NAEM//Data//ALS_AHN2//SelStudyArea2_sel1_ground_height_sub3.las"
 
-las1=readLAS(filename1)
+las=readLAS(filename1)
 las2=readLAS(filename2)
 las3=readLAS(filename3)
 las4=readLAS(filename4)
 
-chm1 = grid_canopy(las1, 0.2, subcircle = 0.2)
+chm1 = grid_canopy(las, 0.2, subcircle = 0.2)
 plot(chm1)
 chm2 = grid_canopy(las2, 0.2, subcircle = 0.2)
 plot(chm2)
@@ -33,16 +33,16 @@ kernel = matrix(1,3,3)
 chm = raster::focal(chm, w = kernel, fun = mean)
 chm = raster::focal(chm, w = kernel, fun = mean)
 
-crowns = lastrees(las, "watershed", chm, th = 2, extra = TRUE)
+crowns = lastrees(las, "watershed", chm, th = 2.5, extra = TRUE)
 
 tree = lasfilter(las, !is.na(treeID))
-plot(tree, color = "treeID", colorPalette = pastel.colors(100), size = 3)
+plot(tree, color = "treeID", colorPalette = pastel.colors(100), size = 5)
 
 library(raster)
 contour = rasterToPolygons(crowns, dissolve = TRUE)
 
-plot(chm, col = height.colors(50))
-plot(contour, add = T)
+plot(chm, col = height.colors(50),cex.axis=1.5,cex.lab=1.5)
+plot(contour, add = T,lwd=4)
 
 z=las@data$Z
 nofret=matrix(data=NA, nrow=length(seq(min(z), max(z), by=2)), ncol=1)
